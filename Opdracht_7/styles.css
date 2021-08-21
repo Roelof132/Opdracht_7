@@ -1,0 +1,54 @@
+h1 {
+  color: blue;
+}
+
+body {
+  color: red;
+  font-size: 20px;
+}
+
+.black-border {
+  border: 5px solid purple;
+}
+
+#green-background {
+  background-color: rgb(163, 233, 72);
+}
+
+h1 {
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+p {
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+nav {
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+aside {
+  padding: 30px;
+}
+
+.center-title {
+  color: blue;
+  margin: 0 auto;
+  width: 500px;
+}
+
+.navigation-links li {
+  display: inline;
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-color: cornflowerblue;
+    color: black;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
